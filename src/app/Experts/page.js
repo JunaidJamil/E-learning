@@ -20,8 +20,7 @@ const Experts = () => {
   return (
     <>
          <div className="mt-6 h-full">
-          <div className=" flex justify-center">
-
+          <div className="flex justify-center">
         <h2 className="text-[40px] text-center title">Expert Instructors</h2>
           </div>
         <div className="mt-24 maindiv3 flex gap-8 sm:mx-3 flex-wrap justify-center">

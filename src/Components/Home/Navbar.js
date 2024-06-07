@@ -53,10 +53,10 @@ export const Navbar = () => {
             <div className='lg:hidden text-gray-600 body-font bg-white '>
              <div className='transition-div w-full pt-2 px-2 pb-3 space-y-1 sm:px-3'>
               <ul className='w-full gap-2 flex flex-1 flex-col items-center justify-center' >
-             <li className='text-lg'>Home</li>
-             <li className='text-lg'>About</li>
-             <li className='text-lg'>Course</li>
-             <li className='text-lg'>Contact</li>
+              <li className='text-lg'><Link href='/'>Home</Link></li>
+             <li className='text-lg'><Link href='/about'>About</Link></li>
+             <li className='text-lg'><Link href='/course'>Course</Link></li>
+             <li className='text-lg'><Link href='/Contact'>Contact</Link></li>
              {/* <li className='h-20 w-[190px] flex justify-center items-center bg-cyan-400 font-bold text-xl gap-2'> Join Now <FaArrowRightLong color='white' size={20}/></li> */}
           </ul>
               </div>
