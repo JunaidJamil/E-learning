@@ -1,0 +1,10 @@
+.bg{
+    background-image:url("../../../../public/assets/carousel-1.jpg") ;
+   background-color:  rgba(21, 41, 61, 0.7) ;
+   
+    background-blend-mode: darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+   min-height: 35vh;
+   background-position: center;
+}

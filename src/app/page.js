@@ -1,42 +1,45 @@
-"use client"
+"use client";
 
-import Hero from '@/Components/Hero'
-import Cards from '@/Components/Cards'
-// import { Navbar } from '@/Components/Navbar'
-import { Views } from '@/Components/vview/view'
-import { Divider } from 'antd'
-import { About } from '@/Components/About'
-import { Category } from '@/Components/Category'
-// import Image from 'next/image'
-// import bg from '/public/assets/bg.jpg'
+import Cards from "@/Components/Home/Cards";
+import { Abouts } from "@/Components/Home/Abouts";
+import { Category } from "@/Components/Home/Category";
+import Service from "@/Components/Home/Service";
+import Hero from "@/Components/Home/Hero";
+import Studentsay from "@/Components/Home/Studentsay";
+import Experts from "./Experts/page";
 
 export default function Home() {
   return (
-<>
-<div>
+    <>
+      <div>
 
-      <Hero/> 
-      
-   <div>
-      <Cards/>
-    </div> 
+        <Hero />
 
-   <div >
-    <About/>
-   </div>
-  
-  
-   <div>
-    <Category/>
-   </div>
+        <div className="mt-[170px]">
+          <Cards />
+        </div>
 
+        <div>
+          <Abouts />
+        </div>
 
+        <div>
+          <Category />
+        </div>
 
-</div>
+        <div className="mt-20 ">
+          <Service />
+        </div>
 
+        <div>
+          <Experts />
+        </div>
 
-
-</>
-
-  )
+        <div>
+          <Studentsay />
+        </div>
+      <div>{/* <Footer/> */}</div>
+      </div>
+    </>
+  );
 }

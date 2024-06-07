@@ -1,0 +1,19 @@
+
+.transition-div {
+    height: 170px;
+    transition: 0.5s ;
+  } 
+
+  .nav-list li a{
+    transition: 0.5s;
+  }
+  .nav-list li a:hover {
+    color: rgb(38 198 218);
+  }
+
+ /* @media (min-width: 320px) {
+  
+   .logo{
+      font-size: 10px;
+   }
+ } */
