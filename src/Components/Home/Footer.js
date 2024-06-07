@@ -104,8 +104,8 @@ const Footer = () => {
               </div>
 
               <div className=" w-full 2xl:w-1/4 sm:w-full md:w-1/2 lg:w-1/4 ">
-                <h1 className=" text-2xl">Gallery</h1>
-                <div className=" mt-9  2xl:w-full  grid justify-center  gap-1 grid-cols-3   ">
+                <h1 className="text-2xl">Gallery</h1>
+                <div className="mt-9 2xl:w-full grid justify-center gap-1 grid-cols-3 ">
                   <div className="  lg:w-[70px] md:w-[110px]  2xl:w-[90px]">
                     <Image
                       src={pic1}
@@ -127,7 +127,8 @@ const Footer = () => {
                       src={pic3}
                       width={190}
                       height={100}
-                      className="border-2 md:w-[110px]  w-full"
+                      alt=""
+                      className="border-2 md:w-[110px] w-full"
                     />
                   </div>
 
@@ -136,6 +137,7 @@ const Footer = () => {
                       src={pic2}
                       width={190}
                       height={100}
+                      alt=""
                       className="border-2  w-full"
                     />
                   </div>
@@ -144,6 +146,7 @@ const Footer = () => {
                       src={pic1}
                       width={190}
                       height={100}
+                      alt=""
                       className="border-2  w-full "
                     />
                   </div>
@@ -152,6 +155,7 @@ const Footer = () => {
                       src={pic3}
                       width={190}
                       height={100}
+                      alt=""
                       className="border-2  w-full"
                     />
                   </div>

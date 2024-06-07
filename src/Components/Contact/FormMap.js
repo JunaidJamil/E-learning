@@ -6,22 +6,23 @@ import { MdEmail } from "react-icons/md";
 const FormMap = () => {
   return (
     <div className="container mx-auto">
-      <h1 className=" text-[40px] mt-10 text-center font-bold">
+      <h1 className="text-[40px] mt-10 text-center font-bold">
         Contact For Any Query
       </h1>
 
       <div className="w-full mt-10">
-        <div className=" mt-10 mx-auto w-full">
-          <div className=" mains px-2 py-2 conatiner">
-            <div className=" mt-10 flex item-center gap-5 sm:justify-center lg:justify-center  flex-wrap">
-              <div className="get-in ">
-                <h2 className=" text-lg font-bold">Get in Touch</h2>
+        <div className="mt-10 mx-auto w-full">
+          <div className="mains px-2 py-2 conatiner">
+            <div className="mt-10 flex item-center gap-5 sm:justify-center lg:justify-center flex-wrap">
+              <div className="get-in">
+                <h2 className="text-lg font-bold">Get in Touch</h2>
                 <p>
-                  The contact form is currently inactive. Get a functional and
-                  working contact form with Ajax & PHP in a few minutes. Just
-                  copy and paste the files, add a little code and you're done.
-                  Download Now.
-                </p>
+  The contact form is currently inactive. Get a functional and
+  working contact form with Ajax &amp; PHP in a few minutes. Just
+  copy and paste the files, add a little code and you&apos;re done.
+  Download Now.
+</p>
+
                 <ul>
                   <li>
                     <div className="contact-icon">
